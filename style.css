@@ -9,6 +9,10 @@ body {
   font-size: 18px;
   color: #e5e7eb;
 }
+/*navigation bar styling*/
+img{
+  width: 150px;
+}
 
 /*List styling*/
 a{
