@@ -6,6 +6,13 @@ body{
 header{
   background-color: #1f2937;
   padding: 1em 13em;
+  justify-content:space-between;
+}
+/*To align navigation bar*/
+.header-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .logo{
@@ -16,6 +23,7 @@ header{
   font-weight: 900;
   color: #e5e7eb;
 }
+
 
 /* this removes the line under our links */
 a{
