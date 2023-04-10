@@ -8,9 +8,8 @@ header{
   padding: 1em 13em;
 }
 
-
+/* this removes the line under our links */
 a{
-  /* this removes the line under our links */
   text-decoration: none;
   color: #e5e7eb;
 }
