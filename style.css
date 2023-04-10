@@ -21,6 +21,12 @@ header{
   align-items: baseline;
 }
 
+.welcome{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
 .logo{
   display: flex;
   align-items: flex-start;
