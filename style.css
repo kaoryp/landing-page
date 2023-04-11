@@ -27,6 +27,10 @@ header{
   display: flex;
   justify-content: space-between;
 }
+h1{
+  color: #f9faf8;
+  font-size: 46px;
+}
 .welcome{
   display: flex;
   flex-direction: column;
@@ -133,7 +137,11 @@ p{
   margin: 0;
 }
 /*Button treatment*/
-
+button{
+  background-color: #3882F6;
+  padding: 6px 24px;
+  border-radius: 6px;
+}
 
 /*Footer treatment*/
 footer{
@@ -143,4 +151,3 @@ footer{
   display: flex;
   justify-content: center;
 }
-
