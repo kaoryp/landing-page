@@ -101,5 +101,18 @@ p{
   justify-content: flex-end;
 }
 
-/**/
+/*Sign up treatment*/
+.sign-up{
+  margin: 4em;
+  display: flex;
+  justify-content: center;
+}
+
+.rec-box{
+  border-radius: 12px;
+  width: 900px;
+  background-color: #3882F6; 
+  display: flex;
+  justify-content: center;
+}
 
