@@ -1,11 +1,12 @@
 body{
-  font-family: system-ui, Roboto, sans-serif;
+  font-family:Roboto, sans-serif;
   margin: 0%;
 }
 
 /*Image size*/
-.placeholder img{
-  width: 428px;
+.container img{
+  display: flex;
+  flex-shrink: 0;
   height: 250px;
 }
 
@@ -22,12 +23,15 @@ header{
 }
 /*Container*/
 .container {
-  display: flex;
   padding: 7em 0;
-  align-items: center;
-  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
 }
-
+.welcome{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
 
 
 .logo{
@@ -38,23 +42,38 @@ header{
   color: #e5e7eb;
 }
 
-
-
 /* this removes the line under our links */
 a{
   text-decoration: none;
   color: #e5e7eb;
 }
 
-/*----*/
+/*-- 3 --*/
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+}
+h2{
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+}
 /*information cards treatment*/
 .card{
   display: flex;
-  justify-content:center;
   text-align: center;
+  padding: 3em 0 6em 0;
 }
 .info {
   width: 200px;
+  padding: 8px;
+}
+p{
+  font-size: 18px;
+  color: #ced0d4;
 }
 /*image treatment*/
 .card img{
@@ -64,4 +83,23 @@ a{
   height: 160px;
 }
 /*----*/
+
+/*Quote treatment*/
+.quote{
+  background-color: #e5e7eb;
+  padding: 3em 16em 3em 16em;
+}
+.quote em{
+  font-size: 36px;
+  font-weight: lighter;
+}
+.quote p{
+  font-weight: 900;
+  font-size: 24px;
+  color: #1f2937;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/**/
 
