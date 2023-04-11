@@ -113,7 +113,13 @@ p{
   width: 100%;
   background-color: #3882F6; 
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+}
+.left{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 0%;
 }
 
 /*Footer treatment*/
