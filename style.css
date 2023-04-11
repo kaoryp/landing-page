@@ -46,3 +46,22 @@ a{
   color: #e5e7eb;
 }
 
+/*----*/
+/*information cards treatment*/
+.card{
+  display: flex;
+  justify-content:center;
+  text-align: center;
+}
+.info {
+  width: 200px;
+}
+/*image treatment*/
+.card img{
+  border: 4px solid #3882F6;
+  border-radius: 20px;
+  width: 160px;
+  height: 160px;
+}
+/*----*/
+
